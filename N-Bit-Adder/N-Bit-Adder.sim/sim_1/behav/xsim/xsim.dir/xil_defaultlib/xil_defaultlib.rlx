@@ -1,0 +1,10 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.srcs/sim_1/new/tb_fulladder.v,1687969826,verilog,,,,tb_fulladder,,,,,,,,
+C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.srcs/sim_1/new/tb_nbitadder.v,1687987031,verilog,,,,tb_nbitadder,,,,,,,,
+C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.srcs/sources_1/new/full_adder.v,1687984994,verilog,,C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.srcs/sources_1/new/half_adder.v,,full_adder,,,,,,,,
+C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.srcs/sources_1/new/half_adder.v,1687968316,verilog,,C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.srcs/sources_1/new/nbit_adder.v,,half_adder,,,,,,,,
+C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.srcs/sources_1/new/nbit_adder.v,1687987310,verilog,,C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.srcs/sim_1/new/tb_nbitadder.v,,nbit_adder,,,,,,,,

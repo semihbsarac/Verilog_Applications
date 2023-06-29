@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_fulladder_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_fulladder" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2118058fs"></ZoomStartTime>
+      <ZoomEndTime time="54584558fs"></ZoomEndTime>
+      <Cursor1Time time="5702000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="152"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject type="divider" fp_name="divider21">
+      <obj_property name="label">Inputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fulladder/i_Ain" type="logic">
+      <obj_property name="ElementShortName">i_Ain</obj_property>
+      <obj_property name="ObjectShortName">i_Ain</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fulladder/i_Bin" type="logic">
+      <obj_property name="ElementShortName">i_Bin</obj_property>
+      <obj_property name="ObjectShortName">i_Bin</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fulladder/i_Cin" type="logic">
+      <obj_property name="ElementShortName">i_Cin</obj_property>
+      <obj_property name="ObjectShortName">i_Cin</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider22">
+      <obj_property name="label">Outputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#0000A0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fulladder/o_Sum" type="logic">
+      <obj_property name="ElementShortName">o_Sum</obj_property>
+      <obj_property name="ObjectShortName">o_Sum</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_fulladder/o_Carry" type="logic">
+      <obj_property name="ElementShortName">o_Carry</obj_property>
+      <obj_property name="ObjectShortName">o_Carry</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>

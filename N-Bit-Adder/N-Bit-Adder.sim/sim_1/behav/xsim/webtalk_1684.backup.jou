@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Jun 28 19:30:51 2023
+# Process ID: 1684
+# Current directory: C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.sim/sim_1/behav/xsim/xsim.dir/tb_fulladder_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Windows -notrace

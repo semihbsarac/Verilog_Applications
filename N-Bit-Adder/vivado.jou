@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Jun 29 22:05:28 2023
+# Process ID: 5584
+# Current directory: C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6848 C:\Users\Windows 7\Desktop\GitHub_Repo\Verilog_Applications\N-Bit-Adder\N-Bit-Adder.xpr
+# Log file: C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/vivado.log
+# Journal file: C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.xpr}
+update_compile_order -fileset sources_1
+file mkdir C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.srcs/constrs_1
+file mkdir C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.srcs/constrs_1
+file mkdir C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.srcs/constrs_1/new
+file mkdir C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.srcs/constrs_1/new
+file mkdir C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.srcs/constrs_1/new
+file mkdir C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.srcs/constrs_1/new
+file mkdir C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.srcs/constrs_1
+file mkdir {C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.srcs/constrs_1/new}
+close [ open {C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.srcs/constrs_1/new/nbitadder_xdc.xdc} w ]
+add_files -fileset constrs_1 {{C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.srcs/constrs_1/new/nbitadder_xdc.xdc}}
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top top_module [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.runs/impl_1/top_module.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.runs/impl_1/top_module.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Windows 7/Desktop/GitHub_Repo/Verilog_Applications/N-Bit-Adder/N-Bit-Adder.runs/impl_1/top_module.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
